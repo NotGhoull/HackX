@@ -1,0 +1,12 @@
+{
+  "hackx": {
+    "name": "HackX",
+    "description": "I haven't thought that far yet",
+    "author": "Ghoul",
+    "version": "1.0.0",
+    "depends": {},
+    "post_install": "./post.js",
+    "github": "https://www.github.com/NotGhoull/HackX",
+    "download_from": "/out/hackx"
+  }
+}

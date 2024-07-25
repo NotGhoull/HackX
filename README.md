@@ -59,7 +59,7 @@ run hackx.js remove scriptname
 
 You can configure hackx by going to `/.config/hackx/config.json` and editing the file. An example of the config file is shown below:
 
-```json
+```jsonc
 {
   "scriptInstalllocation": "/.hackx/", // The location where hackx will install scripts (defaults to /.hackx/ScriptName/)
   "repos": [], // The repos that hackx will use to find and install scripts
@@ -71,7 +71,7 @@ You can configure hackx by going to `/.config/hackx/config.json` and editing the
 
 To get your script added to hackx, you can create a pull request to the main repository, and modify the `package_repo.json` file to include your script. Example of how you should set your script up:
 
-```json
+```jsonc
 {
   "hackx": {
     // This is the name that people will use in `hax install`
