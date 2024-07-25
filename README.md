@@ -21,7 +21,7 @@ Lots of the spec in `package_repo.json` is not implemented yet, ands will be add
 This is the easiest method, and the easiest to use, using wget to get the installer and running it.
 
 ```bash
-wget https://raw.githubusercontent.com/NotGhoull/HackX/main/out/hackx/installer.js /installer.js
+wget https://raw.githubusercontent.com/NotGhoull/HackX/main/out/hackx/selfinstall.js /installer.js
 ```
 After that, you can run the installer by running:
 
