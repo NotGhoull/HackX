@@ -14,7 +14,24 @@ Lots of the spec in `package_repo.json` is not implemented yet, ands will be add
 
 ## Installation
 
-For right now, you can just download all the files from the repo, and run them from the terminal. (I'm working on an installer, but it's not ready yet)
+> [!NOTE]
+> The installer currently doesn't create the config, you'll have to create a `/.config/hackx/config.json` file yourself for now (I'll fix this soon, it was an oversight on my part)
+
+### Method 1 - Using wget (Recommended)
+This is the easiest method, and the easiest to use, using wget to get the installer and running it.
+
+```bash
+wget https://raw.githubusercontent.com/NotGhoull/HackX/main/out/hackx/installer.js /installer.js
+```
+After that, you can run the installer by running:
+
+```bash
+run /installer.js
+```
+And then follow the instructions.
+
+### Method 2 - Copy and paste
+This is the second easiest method, and the easiest to use, just copy and paste the code below into a file, and run it. Just make any file and grab the code from the `out/hackx/installer.js` file, and paste it in.
 
 ## Usage
 
