@@ -14,14 +14,7 @@ Lots of the spec in `package_repo.json` is not implemented yet, ands will be add
 
 ## Installation
 
-1. Make sure you have Bitburner installed, or run it in the browser.
-2. Open the terminal and run the following command:
-
-```bash
-wget someURLHere ./installer.js && run ./installer.js
-```
-
-3. Done! You can now use Hackx to install and manage your scripts.
+For right now, you can just download all the files from the repo, and run them from the terminal. (I'm working on an installer, but it's not ready yet)
 
 ## Usage
 
